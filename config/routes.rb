@@ -1,5 +1,13 @@
 Elevate::Application.routes.draw do
   root to: 'website#home'
+  
+  match '/faq', to: 'website#faq'
+  match '/plans', to: 'website#plans'
+  match '/product', to: 'website#product'
+  match '/about', to: 'website#about'
+  match '/contact', to: 'website#contact'
+  match '/clients', to: 'website#clients'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
