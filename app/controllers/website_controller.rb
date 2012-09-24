@@ -19,4 +19,7 @@ class WebsiteController < ApplicationController
   
   def clients
   end
+  
+  def email
+  end
 end

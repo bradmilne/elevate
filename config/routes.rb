@@ -7,6 +7,7 @@ Elevate::Application.routes.draw do
   match '/about', to: 'website#about'
   match '/contact', to: 'website#contact'
   match '/clients', to: 'website#clients'
+  match '/email', to: 'website#email'
   
 
   # The priority is based upon order of creation:
