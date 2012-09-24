@@ -22,4 +22,7 @@ class WebsiteController < ApplicationController
   
   def email
   end
+  
+  def settings
+  end
 end
